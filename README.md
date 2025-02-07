@@ -5,18 +5,11 @@
 
 # Sobre o projeto
 
-Este projeto é um serviço Java baseado em Spring Boot, desenvolvido para demonstrar a implementação de testes unitários. Ele inclui um CRUD para gestão de pessoas, utilizando JPA para persistência e Mockito para testes.
+Este projeto é um serviço Java baseado em Spring Boot, desenvolvido para demonstrar a implementação de testes unitários. O objetivo principal é demonstrar boas práticas no desenvolvimento de testes unitários para camadas de serviço em aplicações Spring Boot.
 
 # Funcionalidades
-- Criar uma nova pessoa
-
-- Buscar uma pessoa por ID
-
-- Listar todas as pessoas
-
-- Atualizar os dados de uma pessoa
-
-- Remover uma pessoa do sistema
+- Busca uma lista de pessoas por CPF
+- Testes automatizados da classe service
 
 # Tecnologias utilizadas
 
@@ -74,13 +67,9 @@ mvn test
 
 # Endpoints Disponíveis
 
-| Método | Endpoint      | Descrição                       |
-|:------:|:-------------:|:-------------------------------:|
-| GET    | /persons      | Lista todas as pessoas          |
-| POST   | /persons      | Cria uma nova pessoa            |
-| GET    | /persons/{id} | Busca uma pessoa pelo ID        |
-| PUT    | /persons/{id} | Atualiza os dados de uma pessoa |
-| DELETE | /persons/{id} | Remove uma pessoa do sistema    |
+| Método | Endpoint      | Descrição             |
+|:------:|:-------------:|:---------------------:|
+| GET    | /persons      | Lista pessoas por CPF |
 
 
 # Contribuição
