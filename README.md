@@ -69,7 +69,7 @@ mvn test
 
 | Método | Endpoint              | Descrição             |
 |:------:|:---------------------:|:---------------------:|
-| GET    | /socialSecurityNumber | Lista pessoas por CPF |
+| GET    | /testes-junit5/socialSecurityNumber | Lista pessoas por CPF |
 
 
 # Contribuição
