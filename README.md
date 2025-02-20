@@ -69,7 +69,7 @@ mvn test
 
 | Método | Endpoint      | Descrição             |
 |:------:|:-------------:|:---------------------:|
-| GET    | /persons      | Lista pessoas por CPF |
+| GET    | /people       | Lista pessoas por CPF |
 
 
 # Contribuição
