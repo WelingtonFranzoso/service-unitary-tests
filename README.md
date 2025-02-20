@@ -67,9 +67,9 @@ mvn test
 
 # Endpoints Disponíveis
 
-| Método | Endpoint      | Descrição             |
-|:------:|:-------------:|:---------------------:|
-| GET    | /people       | Lista pessoas por CPF |
+| Método | Endpoint              | Descrição             |
+|:------:|:---------------------:|:---------------------:|
+| GET    | /socialSecurityNumber | Lista pessoas por CPF |
 
 
 # Contribuição
